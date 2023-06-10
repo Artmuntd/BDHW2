@@ -3,7 +3,7 @@ import java.sql.*;
 public class Application {
     public static void main(String[] args) {
         String user = "postgres";
-        String password = "your_password";
+        String password = "therockkaneundertaker1";
         String url = "jdbc:postgresql://localhost:5432/skypro";
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
